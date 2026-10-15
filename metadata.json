@@ -1,0 +1,6 @@
+{
+  "name": "Omnitrix Alien Watch",
+  "description": "Tactile cartoon alien watch emulator for Pixel Watch and wearable screens with circular dial navigation, pop-up core, Web Audio FX, haptics, and cinematic transformations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

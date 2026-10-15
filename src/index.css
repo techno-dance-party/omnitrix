@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-scifi {
+  font-family: 'Orbitron', monospace, sans-serif;
+}
+
+.font-telemetry {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+/* Custom glowing alien filters and radial textures */
+.omni-glow-green {
+  filter: drop-shadow(0 0 14px rgba(57, 255, 20, 0.85)) drop-shadow(0 0 28px rgba(0, 255, 102, 0.45));
+}
+
+.omni-glow-red {
+  filter: drop-shadow(0 0 14px rgba(239, 68, 68, 0.85)) drop-shadow(0 0 28px rgba(220, 38, 38, 0.5));
+}
+
+.omni-screen-lens {
+  background: radial-gradient(circle at 35% 30%, rgba(255, 255, 255, 0.14), rgba(0, 0, 0, 0.35) 60%, rgba(0, 0, 0, 0.95) 100%);
+}
+
+.bezel-metallic {
+  background: conic-gradient(
+    from 0deg,
+    #2f3336 0deg,
+    #151718 60deg,
+    #3e4246 120deg,
+    #1a1c1d 180deg,
+    #373b3e 240deg,
+    #161718 300deg,
+    #2f3336 360deg
+  );
+}
+
+/* Touch action control for circular rotation gesture */
+.touch-none-selection {
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
+}
